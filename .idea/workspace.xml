@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="tested and fixed the InputManager and InputValidator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WordGenerator.java" afterDir="false" />
+    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="Create simple a ScoreManager">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/GuessHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Testing.java" afterDir="false" />
     </list>
@@ -49,7 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Testing.executor": "Run",
+    "Application.Testing.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -100,13 +101,42 @@
       <option name="project" value="LOCAL" />
       <updated>1706110734143</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created an tested a WordGenerator class">
+      <option name="closed" value="true" />
+      <created>1706111250618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706111250618</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create simple a ScoreManager">
+      <option name="closed" value="true" />
+      <created>1706112027750</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706112027750</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project build" />
     <MESSAGE value="Created a clas for testing an a inputValidator" />
     <MESSAGE value="tested and fixed the InputManager and InputValidator" />
-    <option name="LAST_COMMIT_MESSAGE" value="tested and fixed the InputManager and InputValidator" />
+    <MESSAGE value="Created an tested a WordGenerator class" />
+    <MESSAGE value="Create simple a ScoreManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create simple a ScoreManager" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Testing.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
