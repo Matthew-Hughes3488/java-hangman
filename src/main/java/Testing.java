@@ -1,12 +1,10 @@
 import utils.InputManager;
 import utils.InputValidator;
+import utils.WordGenerator;
 
 public class Testing {
     public static void main(String[] args) {
 
-        InputManager input = new InputManager();
-        String str = input.getStringInput();
-
-        System.out.println(str);
+        System.out.println(WordGenerator.getRandomWord());
     }
 }
