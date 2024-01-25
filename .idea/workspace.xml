@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="GameLauncher finished. Game is now fully playable">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/OutputProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OutputProvider.java" afterDir="false" />
+    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="Can now change the game difficulty">
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WordGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706203238146</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Can now change the game difficulty">
+      <option name="closed" value="true" />
+      <created>1706204048060</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706204048060</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -225,6 +232,7 @@
     <MESSAGE value="Create GameStateManager interface for decoupling" />
     <MESSAGE value="Wrote GameSettings using a map" />
     <MESSAGE value="GameLauncher finished. Game is now fully playable" />
-    <option name="LAST_COMMIT_MESSAGE" value="GameLauncher finished. Game is now fully playable" />
+    <MESSAGE value="Can now change the game difficulty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Can now change the game difficulty" />
   </component>
 </project>

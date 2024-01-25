@@ -23,7 +23,7 @@ public class GameWord {
         }
 
     }
-    private final String  word;
+    private final String word;
     private final List<WordNode> wordArr;
     private int correctlyGuessedChars;
 
@@ -37,8 +37,10 @@ public class GameWord {
     }
 
     public boolean gameWordContains(char ch){
+        ch = Character.toLowerCase(ch);
+
         for(WordNode node : wordArr){
-            if(node.getCharacter() == ch) {
+            if(Character.toLowerCase(node.getCharacter()) == ch) {
                 updateWordArr(ch);
                 return true;
             }
@@ -56,8 +58,10 @@ public class GameWord {
         return arr;
     }
     private void updateWordArr(char ch){
+        ch = Character.toLowerCase(ch);
+
         for (var node: wordArr){
-            if(node.getCharacter() == ch){
+            if(Character.toLowerCase(node.getCharacter()) == ch){
                 node.setGuessed(true);
                 correctlyGuessedChars++;
             }
@@ -65,7 +69,7 @@ public class GameWord {
     }
     @Override
     public String toString() {
-        StringBuffer output = new StringBuffer();
+        StringBuilder output = new StringBuilder();
 
         for (WordNode node : wordArr){
             if(node.isGuessed()) output.append(node.getCharacter());
