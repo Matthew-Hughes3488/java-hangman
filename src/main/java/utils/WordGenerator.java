@@ -21,6 +21,6 @@ public class WordGenerator {
     }
 
     public static String getRandomWord(){
-        return WORDS[4];
+        return WORDS[(int)(Math.random() * WORDS.length)];
     }
 }
