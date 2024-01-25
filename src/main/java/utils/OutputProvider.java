@@ -2,7 +2,8 @@ package utils;
 
 public interface OutputProvider {
     void printGameStart();
-    void printGameOverMessage();
+    void printWinMessage();
+    void printLoseMessage();
     void printWordSoFar(GameWord word);
     void printNextGuessMessage();
     void printNumGuessesLeft(int guessesLeft);

@@ -8,10 +8,17 @@ public class OutputManager implements OutputProvider {
     }
 
     @Override
-    public void printGameOverMessage(){
-        System.out.println("You lose... You Suck");
-        System.out.println("Play again... ");
+    public void printWinMessage() {
+        System.out.println("You win :)");
+        System.out.println("Play again?");
     }
+
+    @Override
+    public void printLoseMessage() {
+        System.out.println("You lose :(");
+        System.out.println("Play again?");
+    }
+
     @Override
     public void printWordSoFar(GameWord word){
         System.out.println(word);

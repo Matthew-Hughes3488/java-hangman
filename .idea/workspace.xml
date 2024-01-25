@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="Implements a OutputManager class and OutputProvider interface">
+    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="Started GameManager class and updates the InputManager class to have a getCharInput method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Testing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/InputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/OutputProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OutputProvider.java" afterDir="false" />
     </list>
@@ -159,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706183924184</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Started GameManager class and updates the InputManager class to have a getCharInput method">
+      <option name="closed" value="true" />
+      <created>1706185261068</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706185261068</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,6 +180,7 @@
     <MESSAGE value="Finished and tested the GameWord and GuessHandler classes" />
     <MESSAGE value="Made basic GameStateManager" />
     <MESSAGE value="Implements a OutputManager class and OutputProvider interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implements a OutputManager class and OutputProvider interface" />
+    <MESSAGE value="Started GameManager class and updates the InputManager class to have a getCharInput method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started GameManager class and updates the InputManager class to have a getCharInput method" />
   </component>
 </project>
