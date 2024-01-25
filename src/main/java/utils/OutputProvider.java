@@ -11,5 +11,6 @@ public interface OutputProvider {
     void printNextGuessMessage();
     void printNumGuessesLeft(int guessesLeft);
     int getNumCommands();
+    void printDifficultyMessage();
 }
 

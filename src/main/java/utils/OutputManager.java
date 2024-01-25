@@ -69,4 +69,9 @@ public class OutputManager implements OutputProvider {
         return commands.length;
     }
 
+    @Override
+    public void printDifficultyMessage() {
+        System.out.println("Difficulty is set to easy \n Change this in the settings if you're brave");
+    }
+
 }
