@@ -25,11 +25,22 @@ public class InputManager {
             try{
                 String userInput = SCANNER.nextLine();
                 if(userInput.isBlank()) throw new InputMismatchException("Input cannot be blank");
-                SCANNER.nextLine();
                 return userInput;
             }catch (Exception e){
                 System.out.println(e.getMessage());
-                SCANNER.nextLine();
+            }
+        }
+    }
+
+    public char getCharInput(){
+        while(true){
+            try{
+                String userInput = SCANNER.nextLine();
+                if(userInput.isBlank()) throw new InputMismatchException("Input cannot be blank");
+                if(userInput.length() > 1) throw new IllegalArgumentException("Input can only be one character");
+                return userInput.toCharArray()[0];
+            }catch (Exception e){
+                System.out.println(e.getMessage());
             }
         }
     }

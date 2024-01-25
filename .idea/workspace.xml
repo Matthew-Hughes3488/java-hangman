@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="Made basic GameStateManager">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/OutputProvider.java" afterDir="false" />
+    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="Implements a OutputManager class and OutputProvider interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WordGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Testing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/InputManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OutputManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/OutputProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/OutputProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706181191301</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implements a OutputManager class and OutputProvider interface">
+      <option name="closed" value="true" />
+      <created>1706183924184</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706183924184</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +172,7 @@
     <MESSAGE value="Refactored GuessHandler fields" />
     <MESSAGE value="Finished and tested the GameWord and GuessHandler classes" />
     <MESSAGE value="Made basic GameStateManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made basic GameStateManager" />
+    <MESSAGE value="Implements a OutputManager class and OutputProvider interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implements a OutputManager class and OutputProvider interface" />
   </component>
 </project>
