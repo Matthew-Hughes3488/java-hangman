@@ -1,6 +1,8 @@
 package utils;
 
 public interface OutputProvider {
+
+    void printCommands();
     void printGameStart();
     void printWinMessage();
     void printLoseMessage();

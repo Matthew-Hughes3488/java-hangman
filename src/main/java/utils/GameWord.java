@@ -8,19 +8,16 @@ public class GameWord {
         private final char character;
         private boolean guessed;
 
-        public WordNode(char character){
+        private WordNode(char character){
             this.character = character;
             guessed = false;
         }
-
         public char getCharacter() {
             return character;
         }
-
         public boolean isGuessed() {
             return guessed;
         }
-
         public void setGuessed(boolean guessed) {
             this.guessed = guessed;
         }
@@ -28,25 +25,15 @@ public class GameWord {
     }
     private final String  word;
     private final List<WordNode> wordArr;
-
-    private int guessedChars;
+    private int correctlyGuessedChars;
 
     public GameWord(){
         word = WordGenerator.getRandomWord();
         wordArr = initializeWordArray();
-        guessedChars = 0;
+        correctlyGuessedChars = 0;
     }
-
     public String getWord() {
         return word;
-    }
-
-    private List<WordNode> initializeWordArray(){
-        List<WordNode> arr = new ArrayList<>();
-        for(char ch : word.toCharArray()){
-            arr.add(new WordNode(ch));
-        }
-        return arr;
     }
 
     public boolean gameWordContains(char ch){
@@ -59,18 +46,23 @@ public class GameWord {
         return false;
     }
     public boolean wordGuessed(){
-        return guessedChars == word.length();
+        return correctlyGuessedChars == word.length();
     }
-
+    private List<WordNode> initializeWordArray(){
+        List<WordNode> arr = new ArrayList<>();
+        for(char ch : word.toCharArray()){
+            arr.add(new WordNode(ch));
+        }
+        return arr;
+    }
     private void updateWordArr(char ch){
         for (var node: wordArr){
             if(node.getCharacter() == ch){
                 node.setGuessed(true);
-                guessedChars++;
+                correctlyGuessedChars++;
             }
         }
     }
-
     @Override
     public String toString() {
         StringBuffer output = new StringBuffer();
