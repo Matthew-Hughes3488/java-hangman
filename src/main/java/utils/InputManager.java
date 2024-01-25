@@ -23,7 +23,7 @@ public class InputManager implements InputProvider {
     public String getStringInput(){
         while(true){
             try{
-                String userInput = SCANNER.nextLine();
+                String userInput = SCANNER.nextLine().trim();
                 if(userInput.isBlank()) throw new InputMismatchException("Input cannot be blank");
                 return userInput;
             }catch (Exception e){
@@ -35,7 +35,7 @@ public class InputManager implements InputProvider {
     public char getCharInput(){
         while(true){
             try{
-                String userInput = SCANNER.nextLine();
+                String userInput = SCANNER.nextLine().trim();
                 if(userInput.isBlank()) throw new InputMismatchException("Input cannot be blank");
                 if(userInput.length() > 1) throw new IllegalArgumentException("Input can only be one character");
                 return userInput.toCharArray()[0];
