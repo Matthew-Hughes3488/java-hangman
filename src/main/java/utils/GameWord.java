@@ -70,4 +70,16 @@ public class GameWord {
             }
         }
     }
+
+    @Override
+    public String toString() {
+        StringBuffer output = new StringBuffer();
+
+        for (WordNode node : wordArr){
+            if(node.isGuessed()) output.append(node.getCharacter());
+            else output.append('_');
+        }
+
+        return output.toString();
+    }
 }

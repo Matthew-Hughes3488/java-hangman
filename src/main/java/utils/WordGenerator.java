@@ -3,6 +3,8 @@ package utils;
 public class WordGenerator {
     private static final String[] WORDS;
 
+    private WordGenerator(){};
+
     static {
         WORDS = new String[] {
                 "Wizard",
@@ -19,6 +21,6 @@ public class WordGenerator {
     }
 
     public static String getRandomWord(){
-        return WORDS[(int)(Math.random() * WORDS.length)];
+        return WORDS[4];
     }
 }
