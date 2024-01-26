@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="Can now change the game difficulty">
+    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="guess are no longer case-sensitive">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WordGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GuessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GuessHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -49,11 +55,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Testing.executor": "Run",
+    "Application.Testing.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "guess-whole-word-feature",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -212,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706204048060</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="guess are no longer case-sensitive">
+      <option name="closed" value="true" />
+      <created>1706204662191</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706204662191</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,6 +247,18 @@
     <MESSAGE value="Wrote GameSettings using a map" />
     <MESSAGE value="GameLauncher finished. Game is now fully playable" />
     <MESSAGE value="Can now change the game difficulty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Can now change the game difficulty" />
+    <MESSAGE value="guess are no longer case-sensitive" />
+    <option name="LAST_COMMIT_MESSAGE" value="guess are no longer case-sensitive" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/GameManager.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

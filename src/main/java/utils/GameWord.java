@@ -47,6 +47,15 @@ public class GameWord {
         }
         return false;
     }
+
+    public boolean checkWordGuess(String str){
+        if(str.toLowerCase().equals(word.toLowerCase())){
+            setNodesToTrue();
+            correctlyGuessedChars = word.length();
+            return true;
+        }
+        return false;
+    }
     public boolean wordGuessed(){
         return correctlyGuessedChars == word.length();
     }
@@ -65,6 +74,12 @@ public class GameWord {
                 node.setGuessed(true);
                 correctlyGuessedChars++;
             }
+        }
+    }
+
+    private void setNodesToTrue(){
+        for (WordNode node : wordArr){
+            node.setGuessed(true);
         }
     }
     @Override
