@@ -16,8 +16,15 @@ public class GuessHandler {
         return !guessedChars.add(guess);
     }
 
-    public boolean validateGuess(char guess){
-        if(alreadyGuessed(guess)) return false;
-        return gameWord.gameWordContains(guess);
+    public boolean validateGuess(String guess){
+        if(guess.length() !=1){
+            return gameWord.checkWordGuess(guess);
+        }
+
+        char guessedChar = guess.charAt(0);
+
+        if(alreadyGuessed(guessedChar)) return false;
+        return gameWord.gameWordContains(guessedChar);
     }
+
 }
