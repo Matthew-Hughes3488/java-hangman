@@ -1,8 +1,9 @@
-package utils;
+package game;
 
+import utils.WordGenerator;
 import java.util.*;
 
-public class GameWord {
+public class GameWord implements WordProvider {
 
     private static class WordNode{
         private final char character;
@@ -48,7 +49,7 @@ public class GameWord {
         return false;
     }
 
-    public boolean checkWordGuess(String str){
+    public boolean checkFullWordGuess(String str){
         if(str.toLowerCase().equals(word.toLowerCase())){
             setNodesToTrue();
             correctlyGuessedChars = word.length();

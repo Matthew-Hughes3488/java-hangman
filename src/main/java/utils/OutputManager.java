@@ -1,4 +1,5 @@
 package utils;
+import game.WordProvider;
 
 public class OutputManager implements OutputProvider {
 
@@ -52,7 +53,7 @@ public class OutputManager implements OutputProvider {
     }
 
     @Override
-    public void printWordSoFar(GameWord word){
+    public void printWordSoFar(WordProvider word){
         System.out.println(word);
     }
 
