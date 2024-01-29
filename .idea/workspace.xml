@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="guess are no longer case-sensitive">
+    <list default="true" id="addee513-53e4-4007-8795-1ae182e009d2" name="Changes" comment="Create a WordProvider interface for decoupling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GameWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/GuessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/GuessHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -55,11 +53,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Testing.executor": "Debug",
+    "Application.Testing.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "guess-whole-word-feature",
+    "git-widget-placeholder": "Refactor",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
@@ -226,8 +224,27 @@
       <option name="project" value="LOCAL" />
       <updated>1706204662191</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Create a WordProvider interface for decoupling">
+      <option name="closed" value="true" />
+      <created>1706286967590</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706286967590</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project build" />
@@ -248,17 +265,7 @@
     <MESSAGE value="GameLauncher finished. Game is now fully playable" />
     <MESSAGE value="Can now change the game difficulty" />
     <MESSAGE value="guess are no longer case-sensitive" />
-    <option name="LAST_COMMIT_MESSAGE" value="guess are no longer case-sensitive" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/utils/GameManager.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Create a WordProvider interface for decoupling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a WordProvider interface for decoupling" />
   </component>
 </project>
