@@ -1,13 +1,13 @@
 package utils;
-
+import game.WordProvider;
 import java.util.HashSet;
 import java.util.Set;
 
 public class GuessHandler {
-    private final GameWord gameWord;
+    private final WordProvider gameWord;
     private final Set<Character> guessedChars;
 
-    public GuessHandler(GameWord gameWord){
+    public GuessHandler(WordProvider gameWord){
         this.gameWord = gameWord;
         guessedChars = new HashSet<>();
     }
@@ -16,9 +16,9 @@ public class GuessHandler {
         return !guessedChars.add(guess);
     }
 
-    public boolean validateGuess(String guess){
+    public boolean processGuess(String guess){
         if(guess.length() !=1){
-            return gameWord.checkWordGuess(guess);
+            return gameWord.checkFullWordGuess(guess);
         }
 
         char guessedChar = guess.charAt(0);

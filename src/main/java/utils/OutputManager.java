@@ -1,4 +1,5 @@
 package utils;
+import game.WordProvider;
 
 public class OutputManager implements OutputProvider {
 
@@ -41,18 +42,18 @@ public class OutputManager implements OutputProvider {
     public void printWinMessage() {
         System.out.println("You win :)");
         System.out.println("Play again?");
-        System.out.println("0: Yes 1: No");
+        System.out.println("0: Yes \n 1: No");
     }
 
     @Override
     public void printLoseMessage() {
         System.out.println("You lose :(");
         System.out.println("Play again?");
-        System.out.println("0: Yes 1: No");
+        System.out.println("0: Yes \n 1: No");
     }
 
     @Override
-    public void printWordSoFar(GameWord word){
+    public void printWordSoFar(WordProvider word){
         System.out.println(word);
     }
 

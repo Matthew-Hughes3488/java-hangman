@@ -1,4 +1,4 @@
-import utils.*;
+import game.GameLauncher;
 
 public class Testing {
     public static void main(String[] args) {

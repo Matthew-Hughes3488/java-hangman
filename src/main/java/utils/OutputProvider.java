@@ -1,4 +1,5 @@
 package utils;
+import game.WordProvider;
 
 public interface OutputProvider {
 
@@ -7,7 +8,7 @@ public interface OutputProvider {
     void printGameStart();
     void printWinMessage();
     void printLoseMessage();
-    void printWordSoFar(GameWord word);
+    void printWordSoFar(WordProvider word);
     void printNextGuessMessage();
     void printNumGuessesLeft(int guessesLeft);
     int getNumCommands();
