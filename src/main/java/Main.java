@@ -3,7 +3,7 @@ import game.GameSettings;
 import utils.InputManager;
 import utils.OutputManager;
 
-public class Testing {
+public class Main {
     public static void main(String[] args) {
         String[] commands1 = {"Easy", "Medium", "Hard", "Go back"};
         String[] commands2 = {"Start new game", "Change difficulty", "Quit"};

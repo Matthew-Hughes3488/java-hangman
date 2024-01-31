@@ -1,12 +1,19 @@
 package game;
-
+/**
+ * The GameStateHandler class implements the GameStateManager interface to manage the state of the game.
+ * It keeps track of whether the game has started, finished, or if the player has won, as well as the number of lives remaining.
+ */
 public class GameStateHandler implements GameStateManager {
     private boolean gameStarted;
     private boolean gameFinished;
     private boolean gameWon;
 
     private int livesRemaining;
-
+    /**
+     * Constructs a new GameStateHandler with the specified number of lives.
+     *
+     * @param numberOfLives The initial number of lives for the game.
+     */
     public GameStateHandler(int numberOfLives) {
         this.gameStarted = false;
         this.gameFinished = false;

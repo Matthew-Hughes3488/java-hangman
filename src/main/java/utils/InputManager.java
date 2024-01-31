@@ -2,10 +2,19 @@ package utils;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
+/**
+ * The InputManager class provides methods for retrieving user input from the console.
+ */
 public class InputManager implements InputProvider {
     private final Scanner SCANNER = new Scanner(System.in);
-
+    /**
+     * Retrieves an integer input from the user within the specified range.
+     *
+     * @param min The minimum value allowed.
+     * @param max The maximum value allowed.
+     * @return The integer input from the user.
+     * @throws InputMismatchException if the input is not an integer or not within the specified range.
+     */
     public int getIntegerInput(int min, int max){
         while(true){
             try{
@@ -20,6 +29,12 @@ public class InputManager implements InputProvider {
             }
         }
     }
+    /**
+     * Retrieves a string input from the user.
+     *
+     * @return The string input from the user.
+     * @throws InputMismatchException if the input is blank.
+     */
     public String getStringInput(){
         while(true){
             try{
@@ -31,7 +46,12 @@ public class InputManager implements InputProvider {
             }
         }
     }
-
+    /**
+     * Retrieves a single character input from the user.
+     *
+     * @return The character input from the user.
+     * @throws InputMismatchException if the input is blank or more than one character.
+     */
     public char getCharInput(){
         while(true){
             try{
@@ -44,5 +64,4 @@ public class InputManager implements InputProvider {
             }
         }
     }
-
 }

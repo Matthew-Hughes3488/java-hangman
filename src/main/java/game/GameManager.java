@@ -8,7 +8,11 @@ public class GameManager {
     private final GuessHandler guessHandler;
     private final InputProvider inputProvider;
     private final OutputProvider outputProvider;
-
+    /**
+     * Constructs a GameManager object with the specified number of lives.
+     *
+     * @param numberOfLives The number of lives for the player.
+     */
     public GameManager(int numberOfLives) {
         gameWord = new GameWord();
         stateManager = new GameStateHandler(numberOfLives);
@@ -16,13 +20,21 @@ public class GameManager {
         inputProvider = new InputManager();
         outputProvider = new OutputManager();
     }
-
+    /**
+     * Starts the hangman game.
+     *
+     * @return True if the game was won, false otherwise.
+     */
     public boolean startGame() {
         stateManager.setGameStarted();
         outputProvider.printGameStart();
         return gameLoop();
     }
-
+    /**
+     * Executes the main game loop.
+     *
+     * @return True if the game was won, false otherwise.
+     */
     private boolean gameLoop() {
         while (!stateManager.isGameFinished()) {
             outputProvider.printWordSoFar(gameWord);
@@ -43,7 +55,11 @@ public class GameManager {
         return endGame();
     }
 
-
+    /**
+     * Handles the end of the game.
+     *
+     * @return True if the player wants to play again, false otherwise.
+     */
     private boolean endGame() {
         outputProvider.printWordSoFar(gameWord);
         if (stateManager.isGameWon()) outputProvider.printWinMessage();
