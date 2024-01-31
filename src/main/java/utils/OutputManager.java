@@ -41,7 +41,7 @@ public class OutputManager implements OutputProvider {
      */
     @Override
     public void printGameLaunchMessage() {
-        System.out.println("Welcome to Matts snake game");
+        System.out.println("Welcome to Matts hangman game");
         System.out.println("Predictably, it has a wizard in it :)");
     }
     /**
